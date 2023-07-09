@@ -1,0 +1,17 @@
+{
+  "name": "acme-rockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "npx tailwind -i ./src/input.css -o ./build/css/styles.css --watch",
+    "prettier": "npx prettier --watch ./build/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
